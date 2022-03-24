@@ -1,6 +1,5 @@
 package lab2.practice;
 
-
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
@@ -16,9 +15,10 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
  */
 
 public class PropertyPlaceholder implements BeanFactoryPostProcessor {
+
     private PropertyRepository propertyRepository;
 
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
-
+        //TODO
     }
 }
